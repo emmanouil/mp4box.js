@@ -1,4 +1,6 @@
 var sampleUrls = [
+	{ url: "./files/bunny.mp4", desc: "Big Buck Bunny - short"},
+	{ url: "./files/bunnyX3DFinal.mp4", desc: "Big Buck Bunny (with timed X3D Scenes)- short"},
 	{ url: "./mp4/h264bl.mp4", desc: "Video Counter (10min, unfragmented, AVC Baseline)"},
 	{ url: "./mp4/a.mp4", desc: "Video Counter (10min, fragmented, AVC Baseline)"},
 	{ url: "./mp4/aaclow.mp4", desc: "Audio Bips (10 min, unfragmented, AAC)"},
