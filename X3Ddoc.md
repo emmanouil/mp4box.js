@@ -3,7 +3,9 @@ Log of X3DOMsupport
 
 #####TODO:
 * Add timing when adding XML content to DOM
-* Introduce remove <x3d> from DOM
+* Introduce remove `<x3d>` from DOM
+* Dynamically load x3d lib when a relevant document is found
+* Create canvas for 3D only when relevant document is found
 * Handle multiple XML files
 
 #####CHECK:
@@ -23,6 +25,9 @@ Log of X3DOMsupport
 *Extract NHML:
   MP4Box -nhml $trackID$ media_file.mp4
 
+  
+#####NOTES:
+The `[X2DOM]` tag in printouts indicate a print for the X3D parsing
 
 #####Known issues:
 
